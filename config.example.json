@@ -9,7 +9,7 @@
         "FIELD3": { "modes": ["exact_nocase"] }
       },
       "filters": {
-        "FILTER2_FIELD_NAME": { "modes": ["less than", "equal", "greater than"] }
+        "FILTER_FIELD_NAME2": { "modes": ["less than", "equal", "greater than"] }
       }
     },
     "display": {
