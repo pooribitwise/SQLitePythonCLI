@@ -1,0 +1,23 @@
+{
+  "DATABASE_DISPLAY_NAME1": {
+    "location": "PATH_TO_DB",
+    "table": "TABLE_NAME",
+    "search": {
+      "columns": {
+        "FIELD1": { "modes": ["exact", "like"] },
+        "FIELD2": { "modes": ["fts"], "fts_table": "FTS_TABLE_NAME" },
+        "FIELD3": { "modes": ["exact_nocase"] }
+      },
+      "filters": {
+        "FILTER2_FIELD_NAME": { "modes": ["less than", "equal", "greater than"] }
+      }
+    },
+    "display": {
+      "columns": [
+        "FIELD1 AS \"Display Name 1\"",
+        "FIELD2 AS \"Display Name 2\"",
+        "FIELD3"
+      ]
+    }
+  }
+}
