@@ -170,3 +170,6 @@ There are some important things to know for data protection.
 * Define a class for displaying data
 * User-friendly config.json generation and install.sh creation.
 * Add telegram bots api to search the DBs.
+
+## License:
+This project is licensed under the GNU GPLv3 License - see the LICENSE file for details
